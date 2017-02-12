@@ -5,5 +5,5 @@ Simple plugin to shows only kills of the player in his feed, useful in DeathMatc
 
 Cvars in **[cfg/sourcemod/abner_killfeed_filter.cfg]** created after first run:
 - **abner_killfeed_filter "1"** - Enable/Disable the plugin 
-- **killfeed_filter_victim "1"** - Show Feed to Dead Player
-- **killfeed_filter_assister "1"** - Show Feed to Assister Player
+- **abner_killfeed_filter_victim "1"** - Show Feed to Dead Player
+- **abner_killfeed_filter_assister "1"** - Show Feed to Assister Player
