@@ -22,8 +22,8 @@ public void OnPluginStart()
 {
 	g_Enabled = CreateConVar("abner_killfeed_filter", "1", "Enable/Disable Plugin");
 	
-	g_Victim = CreateConVar("killfeed_filter_victim", "1", "Show Feed to Dead Player");
-	g_Assister = CreateConVar("killfeed_filter_assister", "1", "Show Feed to Assister Player");
+	g_Victim = CreateConVar("abner_killfeed_filter_victim", "1", "Show Feed to Dead Player");
+	g_Assister = CreateConVar("abner_killfeed_filter_assister", "1", "Show Feed to Assister Player");
 	
 	
 	CreateConVar("abner_killfeed_filter_version", PLUGIN_VERSION, "Plugin Version", FCVAR_NOTIFY|FCVAR_REPLICATED);
