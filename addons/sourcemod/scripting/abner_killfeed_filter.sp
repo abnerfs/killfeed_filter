@@ -10,7 +10,6 @@ Handle g_Assister;
 Handle g_Victim;
 Handle g_Cookie;
 
-
 public Plugin myinfo =
 {
 	name 			= "AbNeR Kill Feed Filter",
@@ -77,7 +76,6 @@ int GetIntCookie(int client, Handle handle)
 	return StringToInt(sCookieValue);
 }
 
-
 public int MenuHandler(Handle menu, MenuAction action, int param1, int param2)
 {
 	if(param2 == MenuCancel_ExitBack)
@@ -96,10 +94,12 @@ public int MenuHandler(Handle menu, MenuAction action, int param1, int param2)
 		}
 		MenuCookie(param1, 0);
 	}
+	else if (action == MenuAction_End)
+	{
+		delete menu;
+	}
 	return 0;
 }
-
-
 
 public Action OnPlayerDeath(Event ev, char [] name, bool dontBroadcast)
 {
