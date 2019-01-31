@@ -3,7 +3,7 @@
 #include <sdkhooks>
 #include <clientprefs>
 
-#define PLUGIN_VERSION "1.4"
+#define PLUGIN_VERSION "1.5"
 
 Handle g_Enabled;
 Handle g_Assister;
