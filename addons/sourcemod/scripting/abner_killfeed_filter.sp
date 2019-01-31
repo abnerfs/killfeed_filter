@@ -25,7 +25,7 @@ public void OnPluginStart()
 	g_Victim = CreateConVar("abner_killfeed_filter_victim", "1", "Show Feed to Dead Player");
 	g_Assister = CreateConVar("abner_killfeed_filter_assister", "1", "Show Feed to Assister Player");
 	
-	RegConsoleCmd("sm_killfeed", MenuCookie);
+	RegConsoleCmd("killfeed", MenuCookie);
 	
 	
 	CreateConVar("abner_killfeed_filter_version", PLUGIN_VERSION, "Plugin Version", FCVAR_NOTIFY|FCVAR_REPLICATED);
