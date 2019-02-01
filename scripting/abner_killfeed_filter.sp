@@ -13,10 +13,10 @@ Handle g_Cookie;
 public Plugin myinfo =
 {
 	name 			= "AbNeR Kill Feed Filter",
-	author 			= "AbNeR @CSB",
-	description 	= "Shows only kills of the player in his feed.",
+	author 			= "abnerfs",
+	description 	= "See only your own kills in kill feed.",
 	version 		= PLUGIN_VERSION,
-	url 			= "www.tecnohardclan.com/forum"
+	url 			= "https://github.com/abnerfs/killfeed_filter"
 }
 
 public void OnPluginStart()
