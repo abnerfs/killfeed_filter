@@ -1,5 +1,6 @@
 #  [CSGO/CSS] AbNeR Killfeed Filter
-![alt tag](http://oi68.tinypic.com/208fa03.jpg)
+
+![Downloads](https://img.shields.io/github/downloads/abnerfs/killfeed_filter/total) ![Last commit](https://img.shields.io/github/last-commit/abnerfs/killfeed_filter "Last commit") ![Open issues](https://img.shields.io/github/issues/abnerfs/killfeed_filter "Open Issues") ![Closed issues](https://img.shields.io/github/issues-closed/abnerfs/killfeed_filter "Closed Issues") ![Size](https://img.shields.io/github/repo-size/abnerfs/dontpad-api "Size")
 
 Simple plugin to shows only kills of the player in his feed, useful in DeathMatch servers
 
